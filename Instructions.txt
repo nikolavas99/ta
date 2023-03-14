@@ -1,0 +1,2 @@
+The solution to the given problem which I created is Azure cloud based. I use Azure Data Lake for storage, Azure Synapse pipelines for data transformation and ingestion and I use Azure Synapse Serverless Pool as a Data Warehouse. The Azure Synapse workspace can be accessed on the following link (after you have been added to the security role):  
+https://web.azuresynapse.net?workspace=%2fsubscriptions%2fecee9607-3daf-48af-a947-b0b20640402b%2fresourceGroups%2fSynapseResourceGroup%2fproviders%2fMicrosoft.Synapse%2fworkspaces%2ftasynapseworkspace
