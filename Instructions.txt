@@ -1,2 +1,6 @@
-The solution to the given problem which I created is Azure cloud based. I use Azure Data Lake for storage, Azure Synapse pipelines for data transformation and ingestion and I use Azure Synapse Serverless Pool as a Data Warehouse. The Azure Synapse workspace can be accessed on the following link (after you have been added to the security role):  
+The solution to the given problem which I created is Azure cloud based. I use Azure Data Lake for storage, Azure Synapse pipelines for data transformation and ingestion and I use Azure Synapse Serverless Pool as a Data Warehouse. 
+When the Synapse workspace is opened, in the Integrate pane on the left side can be found a pipeline named Blob2DataLake which copies the data into an Azure Data Lake instance as parquet files (for the sake of better performance),
+in a folder that is named by the day on which the pipeline was ran. On the Data Pane, when the tasyn database is expanded, Views can be found which I created on top of the parquet files, which represent my model for a star schema that
+could be used for BI purposes.
+The Azure Synapse workspace can be accessed on the following link (after you have been added to the security role):  
 https://web.azuresynapse.net?workspace=%2fsubscriptions%2fecee9607-3daf-48af-a947-b0b20640402b%2fresourceGroups%2fSynapseResourceGroup%2fproviders%2fMicrosoft.Synapse%2fworkspaces%2ftasynapseworkspace
